@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3ATM</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+
+      <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <span class="fs-4">3ATM</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="https://api.whatsapp.com/send?phone=+50587373581&text=Hola,%20Eliab." class="nav-link active"
+            aria-current="page">
+            WhatsApp
+            <i class="bi-whatsapp"></i>
+          </a>
+        </li>
+      </ul>
+
+    </header>
+  </div>
+
+  <div class="px-4 text-center">
+
+    <div class="container">
+      <main>
+        <div class="row">
+
+          <!-- Formulario de registro de cliente -->
+          <div class="col-lg-12">
+
+            <!-- Encabezado de formulario -->
+            <h4 class="mb-3 mt-2">Registro de citas</h4>
+
+            <form class="needs-validation mt-5" novalidate action="https://formsubmit.co/citas3atm@gmail.com"
+              method="POST">
+              <div class="row g-3">
+
+                <div class="col-lg-5">
+                  <label for="nombreAgente" class="form-label">Nombre del agente:</label>
+                  <input name="Nombre-Agente" type="text" class="form-control" id="nombreAgente"
+                    placeholder="Ingrese su nombre" required />
+                  <div class="valid-feedback">
+                    ¡Correcto! 😺
+                  </div>
+                  <div class="invalid-feedback">
+                    Debe ingresar su nombre. 😾
+                  </div>
+                </div>
+
+                <div class="col-lg-5">
+                  <label for="apellidoAgente" class="form-label">Apellido del agente:</label>
+                  <input name="Apellido-Agente" type="text" class="form-control" id="apellidoAgente"
+                    placeholder="Ingrese su apellido" required />
+                  <div class="valid-feedback">
+                    ¡Correcto! 😺
+                  </div>
+                  <div class="invalid-feedback">
+                    Debe ingresar su apellido. 😾
+                  </div>
+                </div>
+
+                <div class="col-lg-2">
+                  <label for="fecha" class="form-label">Fecha:</label>
+                  <input name="Fecha-Generacion-Cita" type="datetime" class="form-control" id="fecha" placeholder=""
+                    disabled />
+                </div>
+
+                <!-- Separador -->
+                <hr class="mt-5">
+
+                <div class="col-lg-4">
+                  <label for="nombreCliente" class="form-label">Nombre del cliente:</label>
+                  <input name="Nombre-Cliente" type="text" class="form-control" id="nombreCliente"
+                    placeholder="Ingrese el nombre" required />
+                  <div class="valid-feedback">
+                    ¡Correcto! 😺
+                  </div>
+                  <div class="invalid-feedback">
+                    Debe ingresar el nombre del cliente. 😾
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <label for="apellidoCliente" class="form-label">Apellido del cliente:</label>
+                  <input name="Apellido-Cliente" type="text" class="form-control" id="apellidoCliente"
+                    placeholder="Ingrese el apellido" required />
+                  <div class="valid-feedback">
+                    ¡Correcto! 😺
+                  </div>
+                  <div class="invalid-feedback">
+                    Debe ingresar el apellido del cliente. 😾
+                  </div>
+                </div>
+
+
+                <div class="col-lg-2">
+                  <label for="telefono1" class="form-label">Teléfono #1</label>
+                  <input name="Telefono-Cliente-1" type="tel" class="form-control" id="telefono1"
+                    placeholder=" (000) 000-0000" required />
+                  <div class="valid-feedback">
+                    ¡Correcto! 😺
+                  </div>
+                  <div class="invalid-feedback">
+                    Debe ingresar almenos un número del cliente. 😾
+                  </div>
+                </div>
+
+                <div class="col-lg-2">
+                  <label for="telefono2" class="form-label">Teléfono #2</label>
+                  <input name="Telefono-Cliente-2" type="tel" class="form-control" id="telefono2"
+                    placeholder=" (000) 000-0000" />
+                  <div class="valid-feedback">
+                    ¡Este campo es opcional! 😺
+                  </div>
+                </div>
+
+                <div class="col-lg-5">
+                  <label for="direccion" class="form-label">Dirección del cliente:</label>
+                  <input name="Direccion-Cliente" type="text" class="form-control" id="direccion"
+                    placeholder="Ingrese la dirección" required />
+                  <div class="valid-feedback">
+                    ¡Correcto! 😺
+                  </div>
+                  <div class="invalid-feedback">
+                    Debe ingresar la dirección del cliente. 😾
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <label for="nombreConyugue" class="form-label">Nombre del cónyugue:</label>
+                  <input name="Nombre-Conyugue" type="text" class="form-control" id="nombreConyugue"
+                    placeholder="Ingrese el nombre" />
+                  <div class="valid-feedback">
+                    ¡Este campo es opcional! 😺
+                  </div>
+                </div>
+
+                <div class="col-lg-3">
+                  <label for="telefonoConyugue" class="form-label">Teléfono del cónyugue:</label>
+                  <input name="Telefono-Conyugue" type="tel" class="form-control" id="telefonoConyugue"
+                    placeholder=" (000) 000-0000" />
+                  <div class="valid-feedback">
+                    ¡Este campo es opcional! 😺
+                  </div>
+                </div>
+
+                <div class="col-lg-2">
+                  <label for="fecha" class="form-label">Fecha de la cita:</label>
+                  <input name="Fecha-Cita" type="date" class="form-control" id="fecha" required />
+                  <div class="valid-feedback">
+                    ¡Correcto! 😺
+                  </div>
+                  <div class="invalid-feedback">
+                    Debe seleccionar fecha de la cita. 😾
+                  </div>
+                </div>
+
+                <div class="col-lg-2">
+                  <label for="hora" class="form-label">Hora de la cita:</label>
+                  <input name="Hora-Cita" type="time" class="form-control" id="hora" required />
+                  <div class="valid-feedback">
+                    ¡Correcto! 😺
+                  </div>
+                  <div class="invalid-feedback">
+                    Debe seleccionar la hora de la cita. 😾
+                  </div>
+                </div>
+
+                <div class="col-lg-5">
+                  <label for="promedio" class="form-label">¿Su promedio eléctrico mensual es superior a $100?</label>
+                  <select name="Promedio-Superior-100" class="form-select" id="promedio" required="">
+                    <option value="Sí">Sí</option>
+                    <option value="No">No</option>
+                  </select>
+                  <div class="valid-feedback">
+                    ¡Correcto! 😺
+                  </div>
+                </div>
+
+                <div class="col-lg-3">
+                  <label for="temporadaAlta" class="form-label">¿Cuánto paga en temporada alta?</label>
+                  <input name="Temporada-Alta" type="text" class="form-control" id="temporadaAlta"
+                    placeholder="Ingrese la cantidad" required />
+                  <div class="valid-feedback">
+                    ¡Correcto! 😺
+                  </div>
+                  <div class="invalid-feedback">
+                    Debe ingresar una cantidad. 😾
+                  </div>
+                </div>
+
+                <div class="col-lg-3">
+                  <label for="temporadaBaja" class="form-label">¿Cuánto paga en temporada baja?</label>
+                  <input name="Temporada-Baja" type="text" class="form-control" id="temporadaBaja"
+                    placeholder="Ingrese la cantidad" required />
+                  <div class="valid-feedback">
+                    ¡Correcto! 😺
+                  </div>
+                  <div class="invalid-feedback">
+                    Debe ingresar una cantidad. 😾
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <label for="empresa" class="form-label">¿A qué empresa paga su mensualidad de energía?</label>
+                  <select name="Empresa" class="form-select" id="empresa" required>
+                    <option value="PG&E">PG&E</option>
+                    <option value="ComEd">ComEd</option>
+                    <option value="Otros">Otros</option>
+                  </select>
+                  <div class="valid-feedback">
+                    ¡Correcto! 😺
+                  </div>
+                </div>
+
+                <div class="col-lg-3">
+                  <label for="techo" class="form-label">¿Su techo está en buena condición?</label>
+                  <select name="Condicion-Techo" class="form-select" id="techo" required>
+                    <option value="Sí">Sí</option>
+                    <option value="No">No</option>
+                  </select>
+                  <div class="valid-feedback">
+                    ¡Correcto! 😺
+                  </div>
+                </div>
+
+                <div class="col-lg-2">
+                  <label for="idioma" class="form-label">Idioma del técnico:</label>
+                  <select name="Idioma-Tecnico" class="form-select" id="idioma" required="">
+                    <option value="Español">Español</option>
+                    <option value="Inglés">Inglés</option>
+                  </select>
+                  <div class="valid-feedback">
+                    ¡Correcto! 😺
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <label for="notas" class="form-label">Notas:</label>
+                  <textarea name="Notas" class="form-control" id="notas" rows="4" cols="5"
+                    placeholder="Ingrese las notas sobre la cita" required></textarea>
+                  <div class="valid-feedback">
+                    ¡Si quieres, deja una nota! 😺
+                  </div>
+                  <div class="invalid-feedback">
+                    Debes ingresar una nota. 😾
+                  </div>
+                </div>
+              </div>
+
+              <!-- Separador -->
+              <hr class="my-4">
+
+              <!-- Botón de registro de cita -->
+              <button type="submit" class="btn btn-primary btn-lg" onclick="realizarCita();">GENERAR CITA</button>
+              <br>
+              <br>
+            </form>
+          </div>
+        </div>
+      </main>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+
+
+  <script>
+
+    (() => {
+      'use strict'
+
+      const forms = document.querySelectorAll('.needs-validation')
+
+      // Loop over them and prevent submission
+      Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+          form.classList.add('was-validated')
+        }, false)
+      })
+    })()
+  </script>
+
+  <script>
+
+    let fa = new Date();
+    let fat = fa.toLocaleDateString();
+    document.getElementById("fecha").value = fat;
+
+    let generarPdf = () => {
+
+      const doc = new jsPDF({
+        orientation: 'portrait',
+        unit: 'mm',
+        format: [210, 320]
+      });
+      doc.setFillColor(237, 100, 100);
+      doc.rect(0, 0, 220, 60, 'f');
+
+      let nombreAgente = document.getElementById("nombreAgente").value;
+      let apellidoAgente = document.getElementById("apellidoAgente").value;
+      let nombreCliente = document.getElementById("nombreCliente").value;
+      let apellidoCliente = document.getElementById("apellidoCliente").value;
+      let telefono1 = document.getElementById("telefono1").value;
+      let telefono2 = document.getElementById("telefono2").value;
+      let nombreConyugue = document.getElementById("nombreConyugue").value;
+      let telefonoConyugue = document.getElementById("telefonoConyugue").value;
+      let direccion = document.getElementById("direccion").value;
+      let fecha = document.querySelector('input[type="date"]').value;
+      let hora = document.querySelector('input[type="time"]').value;
+      let promedio = document.getElementById("promedio").value;
+      let temporadaAlta = document.getElementById("temporadaAlta").value;
+      let temporadaBaja = document.getElementById("temporadaBaja").value;
+      let empresa = document.getElementById("empresa").value;
+      let techo = document.getElementById("techo").value;
+      let idioma = document.getElementById("idioma").value;
+      let notas = document.getElementById("notas").value;
+
+      const margin = 10;
+      const maxWidth = doc.internal.pageSize.width - margin * 2;
+      const lines = doc.splitTextToSize(notas, maxWidth);
+
+      //doc.addImage(imageData, 10, 8, 106, 34);
+      doc.setTextColor(255, 255, 255);
+      doc.setFontType("bold");
+      doc.setFontSize(72);
+      doc.text(`3ATM`, 12, 40);
+      doc.setFontSize(14);
+      doc.setFontType("normal");
+      doc.setTextColor(255, 255, 255);
+      doc.text(`CALL CENTER`, 12, 50);
+      doc.setFontSize(12);
+      doc.setFontType("normal");
+
+      const options = {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        weekday: 'long'
+      };
+      const formatter = new Intl.DateTimeFormat('es-ES', options);
+      const date = new Date();
+      const formattedDate = formatter.format(date);
+
+      doc.text(formattedDate, 12, 56);
+
+      doc.setFontSize(14);
+      doc.setTextColor(0, 0, 0);
+      doc.setFontType("bold");
+      doc.text(`Nombre completo del agente`, 12, 72);
+      doc.setTextColor(84, 84, 84);
+      doc.setFontType("normal");
+      doc.text(`${nombreAgente} ${apellidoAgente}`, 12, 79);
+      doc.setTextColor(0, 0, 0);
+      doc.setFontType("bold");
+      doc.text(`Nombre del cliente`, 12, 89);
+      doc.setFontType("normal");
+      doc.setTextColor(84, 84, 84);
+      doc.text(`${nombreCliente}`, 12, 96);
+      doc.setTextColor(0, 0, 0);
+      doc.setFontType("bold");
+      doc.text(`Apellido del cliente`, 90, 89);
+      doc.setFontType("normal");
+      doc.setTextColor(84, 84, 84);
+      doc.text(`${apellidoCliente}`, 90, 96);
+      doc.setFontType("bold");
+      doc.setTextColor(0, 0, 0);
+      doc.text(`Número telefónico 1`, 12, 106);
+      doc.setFontType("normal");
+      doc.setTextColor(84, 84, 84);
+      doc.text(`${telefono1}`, 12, 113);
+      doc.setTextColor(0, 0, 0);
+      doc.setFontType("bold");
+      doc.text(`Número telefónico 2`, 90, 106);
+      doc.setFontType("normal");
+      doc.setTextColor(84, 84, 84);
+      doc.text(`${telefono2}`, 90, 113);
+      doc.setTextColor(0, 0, 0);
+      doc.setFontType("bold");
+      doc.text(`Nombre del cónyugue`, 12, 123);
+      doc.setFontType("normal");
+      doc.setTextColor(84, 84, 84);
+      doc.text(`${nombreConyugue}`, 12, 130);
+      doc.setTextColor(0, 0, 0);
+      doc.setFontType("bold");
+      doc.text(`Teléfono del cónyugue`, 90, 123);
+      doc.setFontType("normal");
+      doc.setTextColor(84, 84, 84);
+      doc.text(`${telefonoConyugue}`, 90, 130);
+      doc.setTextColor(0, 0, 0);
+      doc.setFontType("bold");
+      doc.text(`Dirección del cliente`, 12, 140);
+      doc.setFontType("normal");
+      doc.setTextColor(84, 84, 84);
+      doc.text(`${direccion}`, 12, 147);
+      doc.setTextColor(0, 0, 0);
+      doc.setFontType("bold");
+      doc.text(`Fecha de la cita`, 12, 157);
+      doc.setFontType("normal");
+      doc.setTextColor(84, 84, 84);
+      doc.text(`${fecha}`, 12, 164);
+      doc.setTextColor(0, 0, 0);
+      doc.setFontType("bold");
+      doc.text(`Hora de la cita`, 90, 157);
+      doc.setFontType("normal");
+      doc.setTextColor(84, 84, 84);
+      doc.text(`${hora}`, 90, 164);
+      doc.setTextColor(0, 0, 0);
+      doc.setFontType("bold");
+      doc.text(`¿Su promedio eléctrico mensual es superior a $100?`, 12, 174);
+      doc.setFontType("normal");
+      doc.setTextColor(84, 84, 84);
+      doc.text(`${promedio}`, 12, 181);
+      doc.setTextColor(0, 0, 0);
+      doc.setFontType("bold");
+      doc.text(`¿Cuánto paga en temporada alta?`, 12, 191);
+      doc.setFontType("normal");
+      doc.setTextColor(84, 84, 84);
+      doc.text(`${temporadaAlta}`, 12, 198);
+      doc.setTextColor(0, 0, 0);
+      doc.setFontType("bold");
+      doc.text(`¿Cuánto paga en temporada baja?`, 110, 191);
+      doc.setFontType("normal");
+      doc.setTextColor(84, 84, 84);
+      doc.text(`${temporadaBaja}`, 110, 198);
+      doc.setTextColor(0, 0, 0);
+      doc.setFontType("bold");
+      doc.text(`¿A qué empresa paga su mensualidad de energía?`, 12, 208);
+      doc.setFontType("normal");
+      doc.setTextColor(84, 84, 84);
+      doc.text(`${empresa}`, 12, 215);
+      doc.setTextColor(0, 0, 0);
+      doc.setFontType("bold");
+      doc.text(`¿Su techo está en buena condición?`, 12, 225);
+      doc.setFontType("normal");
+      doc.setTextColor(84, 84, 84);
+      doc.text(`${techo}`, 12, 232);
+      doc.setTextColor(0, 0, 0);
+      doc.setFontType("bold");
+      doc.text(`Idioma del técnico`, 110, 225);
+      doc.setFontType("normal");
+      doc.setTextColor(84, 84, 84);
+      doc.text(`${idioma}`, 110, 232);
+      doc.setTextColor(0, 0, 0);
+      doc.setFontType("bold");
+      doc.text(`Notas`, 12, 242);
+      doc.setFontType("normal");
+      doc.setTextColor(84, 84, 84);
+      doc.text(lines, 12, 249, { align: 'justify' });
+      doc.setTextColor(0, 0, 0);
+
+      let partes = fecha.split('-');
+      var fechadoc = partes[2] + '_' + partes[1] + '_' + partes[0];;
+
+      const docpdf = `${nombreCliente} ${apellidoCliente} ${fechadoc}.pdf`;
+      doc.save(docpdf);
+    }
+
+    let realizarCita = () => {
+      let nombreAgente = document.getElementById("nombreAgente").value;
+      let apellidoAgente = document.getElementById("apellidoAgente").value;
+      let nombreCliente = document.getElementById("nombreCliente").value;
+      let apellidoCliente = document.getElementById("apellidoCliente").value;
+      let telefono1 = document.getElementById("telefono1").value;
+      let direccion = document.getElementById("direccion").value;
+      let fecha = document.querySelector('input[type="date"]').value;
+      let hora = document.querySelector('input[type="time"]').value;
+      let temporadaAlta = document.getElementById("temporadaAlta").value;
+      let temporadaBaja = document.getElementById("temporadaBaja").value;
+      let notas = document.getElementById("notas").value;
+
+      if (nombreAgente == "" || apellidoAgente == "" || nombreCliente == "" || apellidoCliente == "" || telefono1 == "" || direccion == "" || fecha == "" || hora == "" || temporadaAlta == "" || temporadaBaja == "" || notas == "") {
+        alert("¡Debe llenar todos los campos requeridos! 😡");
+      } else {
+        alert("¡Se ha registrado la cita! 😎");
+        generarPdf();
+      }
+    }
+  </script>
+
+</body>
+
+</html>
